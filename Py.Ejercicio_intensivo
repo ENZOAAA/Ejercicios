@@ -1,0 +1,14 @@
+import os
+from os.path import isfile, join, isdir
+
+ruta= r'D:\Django'
+def ficheros(x):
+    resultado = os.listdir(ruta)
+    archivos = [i for i in resultado if isfile(join(ruta, i))]
+    print (f' Archivos en carpeta(Django): {archivos}')
+
+    carpetas = [i for i in resultado if isdir(join(ruta, i))]
+    print (f' Carpetas en (Django) : {carpetas}')
+    
+
+ficheros(list)
