@@ -1,0 +1,47 @@
+telefonos = {'Enzo': 1234, }
+
+consultar= True
+while consultar:
+    print ('----------------')
+    print ('MIS CONTACTOS')
+    print ('1. Consultar')
+    print ('2. Añadir')
+    print ('3. Modificar')
+    print ('4. Borrar')
+    print ('5. Salir')
+    print ('----------------')
+    opcion = ' '
+    while opcion not in ('1', '2','3','4','5'):
+        opcion = input (' -> ')
+    if opcion == '1':
+        nombre = input ('Nombre: ')
+        if nombre not in telefonos:
+            print ('Ese nombre no existe.')
+        else:
+            telf = telefonos[nombre]
+            print (nombre, ':', telf)
+    elif opcion == '2':
+        nombre = input('Nombre: ')
+        if nombre in telefonos:
+            print('Ese contacto ya existe')
+        else:
+            telf = int(input('Telefono: '))
+            telefonos[nombre] = telf
+            print ('El telefono se agrego exitosamente.')
+    elif opcion == '3':
+        nombre = input('Nombre: ')
+        if nombre not in telefonos:
+            print ('Ese nombre no exite.')
+        else:
+            telf = int(input('Telefono: '))
+            telefonos[nombre] = telf
+            print('El telefono se modifico exitosamente.')
+    elif opcion =='4':
+        nombre = input ('Nombre: ')
+        if nombre not in telefonos:
+            print('El nombre no existe.')
+        else:
+            del telefonos[nombre]
+            print('El telefono fue borrado exitosamente.')
+    elif opcion == '5':
+        break  
