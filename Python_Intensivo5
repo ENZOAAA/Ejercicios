@@ -1,0 +1,8 @@
+import pandas as pd
+
+
+datos = pd.read_excel('D:/plantillas_excel/Lista de tareas semanales1.xlsx', header= None)
+datos.to_csv('D:/plantillas_excel/Lista de tareas semanales1.csv')
+print (datos.head())
+
+Enzo.A
