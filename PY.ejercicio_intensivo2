@@ -1,4 +1,4 @@
-telefonos = {'Enzo': 1234 }
+telefonos = {'Enzo': 1234}
 
 consultar= True
 while consultar:
