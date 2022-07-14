@@ -1,23 +1,25 @@
 import requests
 
-city = input('Ingrese una ciudad: ')
 
-url = (f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=b2e687e106de08e3620dbca1f35358aa&units=metric')
+consultar = True
 
-data = requests.get(url)
 
-data = data.json()
+while consultar :
+    city = input(str('Ingrese una ciudad: '))
 
-temp = data['main']['temp']
-wind_speed = data ['wind']['speed']
+    url = (f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=b2e687e106de08e3620dbca1f35358aa&units=metric')
+    data = requests.get(url)
+    data = data.json()
+    temp = data['main']['temp']
+    wind_speed = data ['wind']['speed']
+    latitude = data ['coord']['lat']
+    longitude = data ['coord']['lon']
+    description = data['weather'][0]['description']
 
-latitude = data ['coord']['lat']
-longitude = data ['coord']['lon']
-
-description = data['weather'][0]['description']
-
-print ('Temperatura: ', temp)
-print ('Velocidad del viento: ', wind_speed, "m/s")
-print ('Latitud: ', latitude)
-print ('Longitud: ', longitude)
-print ('Descripcion: ', description)
+    print ('---------------------')
+    print ('Temperatura: ', temp)
+    print ('Velocidad del viento: ', wind_speed, "m/s")
+    print ('Latitud: ', latitude)
+    print ('Longitud: ', longitude)
+    print ('Descripcion: ', description)
+    print ('---------------------')
