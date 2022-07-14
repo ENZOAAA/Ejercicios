@@ -1,0 +1,10 @@
+
+n= int(input(' Ingrese un rango numerico, para calcular numeros primos : '))
+def impar (n):
+    
+    resultado = filter ( lambda x : x % 2 !=0, listado)
+    print (list(resultado))
+    
+listado = range (1,n)
+
+impar(list)
