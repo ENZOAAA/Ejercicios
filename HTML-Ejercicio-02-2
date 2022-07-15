@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 02/2-Tablas en HTML</title>
+    </head>
+    <body>
+        
+        <h2>Autores </h2>
+        
+        <table>
+            <div>
+            <tr>
+                <td>Titulo</td>
+                <th> Padre rico padre Pobre</th>
+            </tr>
+            <tr>
+                <td>Autor</td>
+                <th> Robert Kiyosaki</th>
+                <tr>
+                    <td> Año de publicacion</td>
+                    <th>1997</th>
+                </tr>
+                <tr>
+                    <td> Enlace a amazon</td>
+                    <td><a href="https://www.amazon.com/-/es/Robert-T-Kiyosaki/dp/1644731967/ref=sr_1_50?adgrpid=81891244752&gclid=CjwKCAjwoMSWBhAdEiwAVJ2ndt2M09muPlV6v5c7MlYC8p79g5xwK0Wo4vJZnROs7yjT6YGO0mYWgxoCWBAQAvD_BwE&hvadid=585362807211&hvdev=c&hvlocphy=20009&hvnetw=g&hvqmt=b&hvrand=5719061306014620317&hvtargid=kwd-296297371610&hydadcr=22336_13333113&keywords=robert+kiosaki&qid=1657885111&sr=8-50"> Padre Rico Padre Pobre</a></td>
+                </tr>
+            </tr>
+            <tr>
+                <td>Titulo</td>
+                <th> La semana laboral de 4 hs </th>
+            </tr>
+            <tr>
+                <td>Autor</td>
+                <th> Tim Ferris</th>
+            </tr>
+            <tr>
+                <td> Año de publicacion</td>
+                <th>2007</th>
+            </tr>
+            <tr>
+                <td> Enlace a amazon</td>
+                <td><a href="https://www.amazon.com/-/es/Timothy-Ferriss/dp/8490567476">La semana laboral de 4 horas</a></td>
+            </tr>
+            <tr>
+                <td>Titulo</td>
+                <th> Hyperfocus </th>
+            </tr>
+            <tr>
+                <td>Autor</td>
+                <th> Chris Bailey</th>
+            </tr>
+            <tr>
+                <td> Año de publicacion</td>
+                <th>2018</th>
+            </tr>
+            <tr>
+                <td> Enlace a amazon</td>
+                <td><a href="https://www.amazon.com/-/es/Chris-Bailey/dp/849494939X">Hyperfocus</a></td>
+            </tr>
+            </div>
+        </table>
+    </body>
+</html>
