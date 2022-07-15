@@ -1,0 +1,6 @@
+import pandas as pd
+
+#Nombres almacenados en columna(0), emails en columna (1).
+datos_column= [1]
+datos = pd.read_excel('D:/plantillas_excel/correos.xlsx', header= 0, usecols= datos_column)
+print (datos.head())
