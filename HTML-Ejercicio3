@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multimedia con HTML</title>
+    </head>
+    <body>
+        
+        <h1>Aprendiendo a utilizar Imágenes</h1>
+        <div>
+        <img src="needforspeed.jpg" alt="Logo HTML5" width="300" height="300" />
+        </div>
+        <h1>Vídeo</h1>
+        ><div>
+        <video width="300" height="300" controls autoplay muted loop>
+            <source src="riquelme.mp4" type="video/mp4"  />
+        </video>
+        </div>
+        <h1>Audio</h1>
+        <div>
+        <audio controls autoplay loop>
+            <source src="Coldplay-SpeedOfSound.mp3" type="audio/mp3" />
+        </audio>
+        </div>
+    </body>
+</html>
