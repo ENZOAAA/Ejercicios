@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganando precision con los selectores CSS</title>
+    <link rel="stylesheet" href="estilo4.css">
+</head>
+<body>
+    <h1 id="title" class="h1-clase" style= "color: rgb(115, 81, 240)">Lista de compras</h1>
+    <div>
+        <h3> Articulos de compras</h3>
+        <ul>
+          <li id="Elemento-1"> PAN  </li>
+          <li id="Elemento-2"> CAFE </li>
+          <li id="Elemento-3"> LECHE </li>
+          <li id="Elemento-4"> FRUTAS </li>
+          <li id="Elemento-5"> VERDURAS </li>
+        </ul>
+      </div>
+      <div>
+        <h3> Articulos de compras</h3>
+        <ol>
+          <li id="Elemento-1">Supermercado Chino</li>
+          <li id="Elemento-2">Supermercado Brian</li>
+          <li id="Elemento-3">Chango MAS</li>
+          <li id="Elemento-4">Carrefour </li>
+          <li id="Elemento-5"> Disco </li>
+        </ol>
+      </div>
+    </body>
+</html>
+
+/* estilo.CSS para ejercicio 4*/
+
+/* color y tamaño de la lista desordenada  */
+ul #Elemento-1{
+    color: rgba(253, 14, 22, 0.913);
+font-size: 2rem;
+/*COLOR DE LA LISTA ORDENADA*/
+}
+ol #Elemento-1{
+    color:rgba(253, 14, 22, 0.913)
+}
