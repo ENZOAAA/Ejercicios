@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores Pseudo-Class y Pseudo-Selectores en CSS</title>
+    <link rel="stylesheet"href="estilo.css">
+</head>
+<body>
+    <p class="boton"><button>Pasa por encima </button></p>
+    
+</body>
+</html>
+
+/*Agrego fichero estilo.CSS*/
+
+.boton{
+    padding: 0;
+    margin: 0;
+    
+}
+.boton{
+    visibility: hidden;
+}
+.boton button::before{
+    content:'¡Hecho!';
+    visibility: visible;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+.boton :hover{
+    color: beige;
+    background-color: rgb(13, 196, 68);
+}
