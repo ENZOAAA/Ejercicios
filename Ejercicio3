@@ -1,0 +1,30 @@
+//Factorial-for.js
+var fact = 10
+
+for (let i = 1; i < 10; i++) {
+    fact = fact * i;
+    console.log(fact);
+}
+
+//factorial-while.js
+let factor=10
+let i = 1;
+
+while (i< 10) {
+    console.log(factor *= i);
+    i++
+}
+
+
+//factorial- if/break.js
+let fac=10
+let d = 1;
+
+while (d< 10) {
+    d++
+     let resultado = (fac *= d);
+    console.log(resultado);
+    if (d === resultado){
+        break
+    };  
+}
