@@ -1,0 +1,35 @@
+//concatenamos variables:
+let nombre= 'Enzo';
+let apellido= 'Alarcon';
+let estudiante= `${nombre} ${apellido}`;
+console.log( estudiante);
+
+//Pasamos todo a mayusculas:
+let estudianteMayus= estudiante;
+console.log(estudianteMayus.toUpperCase());
+
+//Pasamos todo a minusculas:
+let estudianteMinus= estudiante;
+console.log(estudiante.toLowerCase());
+
+//Variable para saber cuantas letras tiene un string:
+let cantidadChar= estudiante.length;
+console.log(cantidadChar);
+
+//Variable que contiene primera letra de la variable.
+let primerChar= nombre.charAt(0);
+console.log(primerChar);
+
+//Variable que contenga ultima letra de mi apellido:
+console.log(apellido.length);
+let ultimoChar= apellido.charAt(6);
+console.log
+console.log(ultimoChar);
+
+//Variable que elimina los espacios de una variable, de ambos lados:
+let estudianteSinEsp= estudiante.trim();
+console.log(estudianteSinEsp)
+
+//Variable buleana que diga si el nombre esta contenido en la variable " estudiante"
+let nombre_in_estudiante= estudiante.includes(nombre);
+console.log(nombre_in_estudiante);
