@@ -1,0 +1,12 @@
+const mis_datos={
+    nombre :"EnzoA",
+    edad : 33,
+    "¿Eres-desarrollador?":"True",
+    Nacimiento: new Date(1988, 12, 21)+1,
+    libro_favorito : {
+        titulo: "la semana laboral de 4 horas ",
+        autor: "Timothy Ferriss",
+        fecha: new Date(2007,3,24),
+        url: "https://www.amazon.com/-/es/Timothy-Ferriss/dp/8490064385",
+    },
+};
