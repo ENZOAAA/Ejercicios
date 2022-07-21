@@ -1,0 +1,29 @@
+
+//altura en centimetros pasando de type strings a Int:
+let = alturaInt= parseInt("183cm");
+
+//altura en metros type strings pasado a float:
+let altura = parseFloat("1.83m");
+
+//peso en kilogramos de type string a float:
+let peso = parseFloat('75.5kg');
+
+//altura en metros redondeado hacia arriba.
+let alturaR = parseFloat("1.83m");
+alturaR = Math.ceil(alturaR);
+console.log(alturaR);
+
+//peso en kilogramos redondeado hacia abajo:
+let pesoR= parseFloat('75.5kg');
+pesoR = Math.floor(pesoR);
+console.log(pesoR);
+
+//maximos valores(value)en js es igual a max value +1:
+let max_valor_JS = Number.MAX_VALUE;
+let max_valor_JS2 = max_valor_JS + 1;
+
+if (max_valor_JS===max_valor_JS2) {
+    console.log(true)
+} else {
+    console.log(false);
+}
