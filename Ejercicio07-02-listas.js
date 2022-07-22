@@ -24,8 +24,7 @@ const datos_Amigos= [
 
     const nuevaList = datos_Amigos; //Creamos nueva lista con los datos de ambos objetos.
 
-    //Creamos una nueva lista ordenada apartir de la anterior:
-    const listOrdenada = nuevaList.sort((a, b) => a.edad - b.edad);
+    //Creamos una nueva lista ordenada apartir de la anterior, de mayor a menor:
+    const listOrdenada = nuevaList.sort((a, b) => a.edad + b.edad);
     console.log(listOrdenada);
-
 
